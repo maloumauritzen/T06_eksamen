@@ -1,0 +1,20 @@
+:root {
+    --background-color: #E8E5E2;
+}
+
+
+/* BURGER MENU */
+.burgermenu {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+
+.burgermenu .line {
+width: 30px;
+height: 4px;
+color: #544D3C;
+}
