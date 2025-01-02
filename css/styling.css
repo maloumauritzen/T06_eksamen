@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Antic Didone;
+    src: url(../fonts/AnticDidone-Regular.ttf) format('truetype');
+    font-weight: 400;
+  }
+
+
+  @font-face {
+    font-family: Cambay;
+    src: url(../fonts/Cambay/Cambay-Regular.ttf) format('truetype');
+    font-weight: 400;
+  }  
+
+
+  @font-face {
+    font-family: Cambay-bold;
+    src: url(../fonts/Cambay/Cambay-Bold.ttf) format('truetype');
+    font-weight: 600;
+  } 
+  
+  
+  @font-face {
+    font-family: Castle begale;
+    src: url(../fonts/CastleBegale-8MqPZ.otf) format('truetype');
+    font-weight: 600;
+  } 
