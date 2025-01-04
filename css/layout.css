@@ -34,7 +34,12 @@ header {
 
 .hero_img img{
   width: 100%;
+}
 
+
+.hero_img2 img{
+  width: 100%;
+  height: 50%;
 }
 
 
@@ -58,9 +63,10 @@ nav ul {
     height: 677px;
     list-style-type: none;
     margin-top: 10%;
-    padding-top: 160px;
+    padding-bottom: 478.5px;
+    padding-top: 150px;
     padding-left: 100px;
-    background-color: #E8E5E2;
+    background-color: #898373;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   }
 
@@ -88,8 +94,27 @@ nav ul {
   }
 
 
+  .navlinks a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: -25%;
+    margin: 5px 0;
+    top: -50px;
+  }
 
 
+  .navlinks li {
+    padding-bottom: 15px;
+
+  }
+
+
+
+
+
+  /* FORSIDE */
   /* GRØNNE TEKSTBOKSE, CITAT, PROJEKT OG KNAPPER */
   .citat{
     text-align: center;
@@ -204,6 +229,18 @@ nav ul {
 
 
 
+
+  /* STUDIESTARTSPRØVE*/
+  /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
+  .green_box {
+    background-color: #544D3C;
+    
+  }
+
+
+
+
+
   /* DESKTOP VERSION */
   @media (min-width: 800px) {
 
@@ -215,6 +252,9 @@ nav ul {
       font-size: 35px;
       padding-bottom: 5%;
     }
+
+
+    /* GRID FORSIDE */
 
 
     .tekst_container {
@@ -362,11 +402,73 @@ nav ul {
       aspect-ratio: 1 / 1; /* Sikrer, at hver celle bliver kvadratisk */
   }
   
-  .img1 img, .img2 img, .img3 img, .img4 img, .img5 img {
+    .img1 img, .img2 img, .img3 img, .img4 img, .img5 img {
       width: 100%;
       height: 100%;
       object-fit: cover /* Sikrer, at billedet fylder cellen proportionalt */
   }
+
+
+
+
+  /* STYLING AF TEKSTBOKSE I GRID FORSIDE */
+    .tekst_container{
+      .speciel_h2v{
+        margin-left: -4%;
+      }
+      .speciel_h3v{
+        margin-top: 40%;
+        font-size: 30px;
+        color: #544D3C;
+      }
+      .p_venstre{
+        font-size: 15px;
+        max-width: 50ch;
+        text-align: left;
+      }
+      .speciel_h2h{
+        margin-left: 96%;
+      }
+      .speciel_h3h{
+        margin-top: 40%;
+        margin-left: 78%;
+        font-size: 30px;
+        color: #544D3C;
+      }
+      .speciel_h3_2{
+        margin-top: 40%;
+        margin-left: 59.5%;
+        font-size: 30px;
+        color: #544D3C;
+      }
+      .p_højre{
+        font-size: 15px;
+        max-width: 49ch;
+        text-align: right;
+        margin-left: 33%;
+      }
+      .knapper{
+        margin-left: 80%;
+        margin-bottom: -10%;
+      }
+      .knapper:hover{
+        background-color: #f8f7f3;
+        border: solid #544D3C;
+        border-width: 1px;
+      }
+      .knapper:hover a{
+        color: #544D3C;
+      }
+      .knapper2:hover{
+        background-color: #f8f7f3;
+        border: solid #544D3C;
+        border-width: 1px;
+      }
+      .knapper2:hover a{
+        color: #544D3C;
+      }
+
+    }
 
 }
 
