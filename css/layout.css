@@ -122,6 +122,14 @@ nav ul {
     color: #544D3C;
     font-family: 'Antic Didone', 'Times New Roman', Times, serif;
     font-size: 20px;
+    p{
+      font-size: 14px;
+      padding-top: 5%;
+    }
+    hr{
+      border: none;
+      border-top: 1px solid #544D3C;
+      width: 120px;    }
   }
 
 
@@ -234,8 +242,41 @@ nav ul {
   /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
   .green_box {
     background-color: #544D3C;
-    
+    margin: 10%;
+    padding: 5%;
   }
+
+
+  .tekst_box {
+    color: #fff;
+    h2{
+      font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+      text-align: center;
+    }
+    p{
+      font-family: 'Cambay', 'Times New Roman', Times, serif;
+      text-align: center;
+      
+    }
+    hr{
+      border: none;
+      border-top: 1px solid #fff;
+      width: 300px;
+      padding-bottom: 3%;    
+    }
+  }
+
+    .img_box img{
+      width: 90%;
+      height: auto;
+    }
+
+    .img_box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
 
 
 
@@ -468,6 +509,54 @@ nav ul {
         color: #544D3C;
       }
 
+    }
+
+
+
+
+    /* STYLING AF TEKSTBOKS OG IMG PÅ PROJEKTSIDER*/
+    /* STUDIESTARTSPRØVE */
+    .citat{
+      margin-bottom: 0%;
+    }
+    .green_box{
+      margin: 4% 60% 7% 0;
+      padding-bottom: 15%;
+      position: relative;
+    }
+    .tekst_box{
+      h2{
+        padding-top: 15%;
+      }
+      p{
+        line-height: 2.2;
+      }
+    }
+
+    .img_box img{
+      width: 70%;
+      height: auto;
+      border: 1px solid #544D3C;
+    }
+
+
+    .img_box{
+      position: absolute;
+      top: 206%;
+      right: 370px;
+      z-index: 2;
+    }
+
+
+    /* EMNESITE */
+    .green_box2{
+      position: relative;
+      margin: 4% 0 7% 60%;
+    }
+
+    .img_box2{
+      position: absolute;
+      right: 430px;
     }
 
 }
