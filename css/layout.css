@@ -238,9 +238,13 @@ nav ul {
 
 
 
-  /* STUDIESTARTSPRØVE*/
+  /* STUDIESTARTSPRØVE, EMNESITE, PASSIONSSITE, VIRKSOMHEDSSITE, ANIMATIONSSPIL*/
   /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
-  .green_box {
+  .green_box,
+  .green_box2,
+  .green_box3,
+  .green_box4,
+  .green_box5 {
     background-color: #544D3C;
     margin: 10%;
     padding: 5%;
@@ -266,63 +270,25 @@ nav ul {
     }
   }
 
-    .img_box img{
+    .img_box img,
+    .img_box2 img,
+    .img_box3 img,
+    .img_box4 img,
+    .img_box5 img{
       width: 90%;
       height: auto;
     }
 
-    .img_box{
+    .img_box,
+    .img_box2,
+    .img_box3,
+    .img_box4,
+    .img_box5{
       display: flex;
       justify-content: center;
       align-items: center;
     }
-
-
-
-    /* EMNESITE */
-    /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
-    .green_box2{
-      background-color: #544D3C;
-      margin: 10%;
-      padding: 5%;
-    }
-
-
-    .img_box2 img{
-      width: 90%;
-      height: auto;
-    }
-
-
-    .img_box2{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-
-    /* PSSIONSSITE */
-    /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
-
-    .green_box3{
-      background-color: #544D3C;
-      margin: 10%;
-      padding: 5%;
-    }
-
-
-    .img_box3 img{
-      width: 90%;
-      height: auto;
-    }
-
-
-    .img_box3{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
+    
 
 
   /* DESKTOP VERSION */
@@ -481,13 +447,13 @@ nav ul {
 
 
     .img1, .img2, .img3, .img4, .img5 {
-      aspect-ratio: 1 / 1; /* Sikrer, at hver celle bliver kvadratisk */
+      aspect-ratio: 1 / 1;
   }
   
     .img1 img, .img2 img, .img3 img, .img4 img, .img5 img {
       width: 100%;
       height: 100%;
-      object-fit: cover /* Sikrer, at billedet fylder cellen proportionalt */
+      object-fit: cover
   }
 
 
@@ -497,6 +463,7 @@ nav ul {
     .tekst_container{
       .speciel_h2v{
         margin-left: -4%;
+        font-size: 16px;
       }
       .speciel_h3v{
         margin-top: 40%;
@@ -608,7 +575,7 @@ nav ul {
 
     .img_box2{
       position: absolute;
-      right: 320px;
+      right: 430px;
       top: 225%;
     }
 
@@ -637,7 +604,51 @@ nav ul {
     }
 
 
+    /* VIRKSOMHEDSSITE */
+    /* STYLING AF TEKSTBOKS OG IMG */
+    .green_box4{
+      position: relative;
+      margin: 4% 0 7% 60%;
+      padding-bottom: 11%;
+    }
 
+
+    .img_box4 img{
+      width: 90%;
+      height: auto;
+      border: 1px solid #544D3C;
+    }
+
+
+    .img_box4{
+      position: absolute;
+      right: 520px;
+      top: 183%;
+    }
+
+
+    /* ANIMATIONSSPIL */
+    /* STYLING AF TEKSTBOKS OG IMG */
+    .green_box5{
+      margin: 4% 60% 7% 0;
+      padding-bottom: 15%;
+      position: relative;
+    }
+
+
+    .img_box5 img{
+      width: 100%;
+      height: auto;
+      border: 1px solid #544D3C;
+    }
+
+
+    .img_box5{
+      position: absolute;
+      top: 195%;
+      right: 270px;
+      z-index: 2;
+    }
 }
 
 
