@@ -63,7 +63,7 @@ nav ul {
     height: 677px;
     list-style-type: none;
     margin-top: 10%;
-    padding-bottom: 478.5px;
+    padding-bottom: 121px;
     padding-top: 150px;
     padding-left: 100px;
     background-color: #898373;
@@ -81,7 +81,7 @@ nav ul {
   
 
   .burgermenu.open .line:nth-child(2) {
-    opacity: 0; /* Skjul den midterste linje */
+    opacity: 0;
   }
   
 
@@ -121,7 +121,7 @@ nav ul {
     margin: 5%;
     color: #544D3C;
     font-family: 'Antic Didone', 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     p{
       font-size: 14px;
       padding-top: 5%;
@@ -276,9 +276,52 @@ nav ul {
       justify-content: center;
       align-items: center;
     }
-  
 
 
+
+    /* EMNESITE */
+    /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
+    .green_box2{
+      background-color: #544D3C;
+      margin: 10%;
+      padding: 5%;
+    }
+
+
+    .img_box2 img{
+      width: 90%;
+      height: auto;
+    }
+
+
+    .img_box2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    /* PSSIONSSITE */
+    /* STYLING AF GRØN TEKSTBOKS OG BILLEDE */
+
+    .green_box3{
+      background-color: #544D3C;
+      margin: 10%;
+      padding: 5%;
+    }
+
+
+    .img_box3 img{
+      width: 90%;
+      height: auto;
+    }
+
+
+    .img_box3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
 
 
@@ -296,8 +339,6 @@ nav ul {
 
 
     /* GRID FORSIDE */
-
-
     .tekst_container {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -514,8 +555,8 @@ nav ul {
 
 
 
-    /* STYLING AF TEKSTBOKS OG IMG PÅ PROJEKTSIDER*/
     /* STUDIESTARTSPRØVE */
+    /* STYLING AF TEKSTBOKS OG IMG */
     .citat{
       margin-bottom: 0%;
     }
@@ -549,15 +590,53 @@ nav ul {
 
 
     /* EMNESITE */
+    /* STYLING AF TEKSTBOKS OG IMG */
+
     .green_box2{
       position: relative;
       margin: 4% 0 7% 60%;
+      padding-bottom: 11%;
     }
+
+
+    .img_box2 img{
+      width: 70%;
+      height: auto;
+      border: 1px solid #544D3C;
+    }
+
 
     .img_box2{
       position: absolute;
-      right: 430px;
+      right: 320px;
+      top: 225%;
     }
+
+
+    /* PASSIONSSITE */
+    /* STYLING AF TEKSTBOKS OG IMG */
+    .green_box3{
+      margin: 4% 60% 7% 0;
+      padding-bottom: 15%;
+      position: relative;
+    }
+
+
+    .img_box3 img{
+      width: 100%;
+      height: auto;
+      border: 1px solid #544D3C;
+    }
+
+
+    .img_box3{
+      position: absolute;
+      top: 206%;
+      right: 370px;
+      z-index: 2;
+    }
+
+
 
 }
 
