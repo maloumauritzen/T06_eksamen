@@ -4,10 +4,43 @@ body {
 }
 
 header {
-    width: 100%;
-    height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
 }
 
+.logo{
+  padding-right: 10%;
+}
+
+.logo img{
+  max-width: 110px;
+  width: auto;
+}
+
+.footer_grid{
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+}
+.footer_grid li{
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Cambay';
+  color: #544D3C;
+  font-size: 12px;
+}
+.footer_grid ul{
+  padding: 0;
+}
+.footer_gridv{
+  grid-column: 1/2;
+}
+.footer_gridh{
+  grid-column: 2/3;
+}
 
 
 /* BURGER MENU */
@@ -17,11 +50,9 @@ header {
     flex-direction: column;
     gap: 5px;
     position: relative;
-    padding-top: 20px;
     padding-left: 20px;
     z-index: 10;
 }
-
 
 .burgermenu .line {
     width: 30px;
@@ -31,27 +62,21 @@ header {
     transition: all 0.3s ease;
 }
 
-
 .hero_img img{
   width: 100%;
 }
-
-
 .hero_img2 img{
   width: 100%;
   height: 50%;
 }
 
-
 nav ul.show {
     display: flex;
 }
 
-
 nav li {
-    margin: 15px 0; /* Tilføj lidt mellemrum mellem links */
+    margin: 15px 0;
 }
-
 
 nav ul {
     display: none;
@@ -63,55 +88,41 @@ nav ul {
     height: 677px;
     list-style-type: none;
     margin-top: 10%;
-    padding-bottom: 121px;
-    padding-top: 150px;
-    padding-left: 100px;
+    padding: 150px 0 121px 100px;
     background-color: #898373;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   }
-
 
   .burgermenu.open .line:nth-child(1) {
     transform: rotate(45deg);
     position: absolute;
-    top: 20px;
     left: 20px;
     z-index: 1;
   }
   
-
   .burgermenu.open .line:nth-child(2) {
     opacity: 0;
   }
   
-
   .burgermenu.open .line:nth-child(3) {
     transform: rotate(-45deg);
     position: absolute;
-    top: 20px;
     left: 20px;
     z-index: 1;
   }
-
 
   .navlinks a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Antic Didone', 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-left: -25%;
-    margin: 5px 0;
+    margin: 5px 0 -25%;
     top: -50px;
   }
-
 
   .navlinks li {
     padding-bottom: 15px;
 
   }
-
-
-
 
 
   /* FORSIDE */
@@ -163,7 +174,7 @@ nav ul {
         font-size: 12px;
         margin-left: 90%;
         margin-top: -5%;
-        font-family: Cambay;
+        font-family: Cambay, 'Times New Roman', Times, serif;
     }
     h3 {
       color: #fff;
@@ -174,31 +185,17 @@ nav ul {
         text-align: right;
         color: white;
         font-size: 14px;
-        font-family: Cambay;
+        font-family: Cambay, 'Times New Roman', Times, serif;
     }
   }
 
-
-  .img1 img{
-    width: 100%;
-  }
-
-  .img2 img{
-    width: 100%;
-  }
-
-  .img3 img{
-    width: 100%;
-  }
-
-  .img4 img{
-    width: 100%;
-  }
-
+  .img1 img,
+  .img2 img,
+  .img3 img,
+  .img4 img,
   .img5 img{
     width: 100%;
   }
-
 
   .knapper {
     background-color: #353127;
@@ -209,8 +206,6 @@ nav ul {
     align-items: center;
     margin-left: 60%;
   }
-
-
   .knapper2 {
     background-color: #353127;
     width: 120px;
@@ -219,23 +214,12 @@ nav ul {
     justify-content: center;
     align-items: center;
   }
-
-
-  .knapper a{
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Antic Didone';
-  }
-
-
+  .knapper a,
   .knapper2 a{
     text-decoration: none;
     color: #fff;
-    font-family: 'Antic Didone';
+    font-family: 'Antic Didone', 'Times New Roman', Times, serif;
   }
-
-
-
 
 
   /* STUDIESTARTSPRØVE, EMNESITE, PASSIONSSITE, VIRKSOMHEDSSITE, ANIMATIONSSPIL*/
@@ -249,7 +233,6 @@ nav ul {
     margin: 10%;
     padding: 5%;
   }
-
 
   .tekst_box {
     color: #fff;
@@ -270,7 +253,6 @@ nav ul {
     }
   }
 
-
     .img_box,
     .img_box2,
     .img_box3,
@@ -285,7 +267,6 @@ nav ul {
         border: 1px solid #544D3C;
       }
     }
-
 
     .korttekst1,
     .korttekst2{
@@ -321,7 +302,7 @@ nav ul {
       border: 1px solid #544D3C;
     }
 
-          /* KNAP PÅ PROJEKTSIDER */
+    /* KNAP PÅ PROJEKTSIDER */
     .knap_container {
       display: flex;
       justify-content: center;
@@ -378,7 +359,6 @@ nav ul {
 
     }
 
-
     .ommig_citat{
       display: flex;
       justify-content: center;
@@ -423,7 +403,8 @@ nav ul {
       }
 
       .side_img1,
-      .side_img2{
+      .side_img2,
+      .side_img3{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -431,7 +412,8 @@ nav ul {
       }
 
       .side_img1 img,
-      .side_img2 img{
+      .side_img2 img,
+      .side_img3 img{
         width: 90%;
         height: auto;
       }
@@ -452,11 +434,37 @@ nav ul {
         text-align: justify;
       }
 
+      .cv{
+        padding: 0;
+      }
+      .cv li{
+        list-style: none;
+        font-family: 'Cambay', 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #fff;
+        line-height: 2.5;
+      }
+      .cv p{
+        text-align: justify;
+        padding: 3% 5% 0 5%;
+      }
+
     
 
 
   /* DESKTOP VERSION */
   @media (min-width: 800px) {
+    .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding-right: 3%;
+    }
+    .logo img{
+      max-width: 120px;
+      width: auto;
+    }
 
     .citat{
       text-align: center;
@@ -464,7 +472,6 @@ nav ul {
       color: #544D3C;
       font-family: 'Antic Didone', 'Times New Roman', Times, serif;
       font-size: 35px;
-      padding-bottom: 5%;
     }
 
 
@@ -478,12 +485,10 @@ nav ul {
       
     }
 
-
     .citat {
       display: grid;
       grid-column: 1/3;
     }
-
 
     .greenbox_venstre1 {
       display: grid;
@@ -500,7 +505,6 @@ nav ul {
       }
     }
 
-
     .greenbox_venstre2 {
       display: grid;
       grid-column: 1/2;
@@ -515,7 +519,6 @@ nav ul {
         color: #544D3C;
       }
     }
-
 
     .greenbox_venstre3 {
       display: grid;
@@ -532,7 +535,6 @@ nav ul {
       }
     }
 
-
     .greenbox_højre1 {
       display: grid;
       grid-column: 2/3;
@@ -547,7 +549,6 @@ nav ul {
         color: #544D3C;
       }
     }
-
 
     .greenbox_højre2 {
       display: grid;
@@ -564,7 +565,6 @@ nav ul {
       }
     }
 
-
     .img1 {
       display: grid;
       grid-column: 2/3;
@@ -572,7 +572,6 @@ nav ul {
       border: solid #544D3C;
       border-width: 1.5px;
     }
-
 
     .img2 {
       display: grid;
@@ -582,7 +581,6 @@ nav ul {
       border-width: 1.5px;
     }
 
-
     .img3 {
       display: grid;
       grid-column: 2/3;
@@ -590,7 +588,6 @@ nav ul {
       border: solid #544D3C;
       border-width: 1.5px;
     }
-
 
     .img4 {
       display: grid;
@@ -600,7 +597,6 @@ nav ul {
       border-width: 1.5px;
     }
 
-
     .img5 {
       display: grid;
       grid-column: 2/3;
@@ -609,18 +605,15 @@ nav ul {
       border-width: 1.5px;
     }
 
-
     .img1, .img2, .img3, .img4, .img5 {
       aspect-ratio: 1 / 1;
-  }
+    }
   
     .img1 img, .img2 img, .img3 img, .img4 img, .img5 img {
       width: 100%;
       height: 100%;
       object-fit: cover
-  }
-
-
+    }
 
 
   /* STYLING AF TEKSTBOKSE I GRID FORSIDE */
@@ -684,8 +677,6 @@ nav ul {
     }
 
 
-
-
     /* STUDIESTARTSPRØVE */
     /* STYLING AF TEKSTBOKS OG IMG */
     .citat{
@@ -710,8 +701,6 @@ nav ul {
       height: auto;
       border: 1px solid #544D3C;
     }
-
-
     .img_box{
       position: absolute;
       top: 206%;
@@ -729,13 +718,11 @@ nav ul {
       padding-bottom: 15%;
     }
 
-
     .img_box2 img{
       width: 70%;
       height: auto;
       border: 1px solid #544D3C;
     }
-
 
     .img_box2{
       position: absolute;
@@ -973,6 +960,9 @@ nav ul {
       color: #544D3C;
     }
 
+    .side_img{
+      max-height: 870px;
+    }
     .side_img1{
       width: 40%;
       height: auto;
@@ -989,10 +979,48 @@ nav ul {
       bottom: 50%;
       transform: translateY(-65%);
     }
+    .side_img3{
+      width: 40%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      right: 25%;
+      transform: translateY(-180%);
+
+    }
 
     .tekstboks_cv{
-      transform: translateY(-350%);
+      transform: translateY(-61%);
     }
+
+    .cv{
+      padding-right: 4%;
+    }
+    .cv li{
+      list-style: none;
+      font-family: 'Cambay', 'Times New Roman', Times, serif;
+      text-align: center;
+      color: #544D3C;
+      line-height: 2.5;
+    }
+    .cv p{
+      text-align: justify;
+      padding: 3% 15% 0 15%;
+    }
+
+    .linje_ommig{
+      position: absolute;
+      top: 595%;
+      left: 35.5%;
+    }
+
+    .footer_grid li{
+      font-size: 15px;
+    }
+    footer{
+      padding: 5%;
+    }
+
 }
   
 
