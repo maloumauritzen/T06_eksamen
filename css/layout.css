@@ -20,8 +20,6 @@ header {
   width: auto;
 }
 
-/* FOOTER */
-
 .footer_grid{
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
@@ -86,8 +84,8 @@ nav ul {
     position: absolute;
     top: -18.5%;
     left: 0%;
-    width: 320px;
-    height: 920px;
+    width: 220px;
+    height: 677px;
     list-style-type: none;
     margin-top: 10%;
     padding: 150px 0 121px 100px;
@@ -1003,7 +1001,7 @@ nav ul {
     }
     .cv li{
       list-style: none;
-      font-family: 'Cambay';
+      font-family: 'Cambay', 'Times New Roman', Times, serif;
       text-align: center;
       color: #544D3C;
       line-height: 2.5;
