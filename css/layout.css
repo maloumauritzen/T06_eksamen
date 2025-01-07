@@ -113,7 +113,7 @@ nav ul {
   .navlinks a {
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+    font-family: 'Antic Didone';
     font-size: 20px;
     margin: 5px 0 -25%;
     top: -50px;
@@ -131,7 +131,7 @@ nav ul {
     text-align: center;
     margin: 5%;
     color: #544D3C;
-    font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+    font-family: 'Antic Didone';
     font-size: 15px;
     p{
       font-size: 14px;
@@ -152,16 +152,16 @@ nav ul {
         font-size: 12px;
         margin-left: -7%;
         margin-top: -5%;
-        font-family: Cambay, 'Times New Roman', Times, serif;
+        font-family: 'Cambay';
     }
     h3 {
       color: #fff;
-      font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+      font-family: 'Antic Didone';
     }
     p {
         color: white;
         font-size: 14px;
-        font-family: Cambay, 'Times New Roman', Times, serif;
+        font-family: 'Cambay';
     }
   }
 
@@ -174,18 +174,18 @@ nav ul {
         font-size: 12px;
         margin-left: 90%;
         margin-top: -5%;
-        font-family: Cambay, 'Times New Roman', Times, serif;
+        font-family: 'Cambay';
     }
     h3 {
       color: #fff;
-      font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+      font-family: 'Antic Didone';
       margin-left: 63.5%;
     }
     p {
         text-align: right;
         color: white;
         font-size: 14px;
-        font-family: Cambay, 'Times New Roman', Times, serif;
+        font-family: 'Cambay';
     }
   }
 
@@ -218,7 +218,7 @@ nav ul {
   .knapper2 a{
     text-decoration: none;
     color: #fff;
-    font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+    font-family: 'Antic Didone';
   }
 
 
@@ -237,11 +237,11 @@ nav ul {
   .tekst_box {
     color: #fff;
     h2{
-      font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+      font-family: 'Antic Didone';
       text-align: center;
     }
     p{
-      font-family: 'Cambay', 'Times New Roman', Times, serif;
+      font-family: 'Cambay';
       text-align: center;
       
     }
@@ -440,7 +440,7 @@ nav ul {
       }
       .cv li{
         list-style: none;
-        font-family: 'Cambay', 'Times New Roman', Times, serif;
+        font-family: 'Cambay';
         text-align: center;
         color: #fff;
         line-height: 2.5;
@@ -471,7 +471,7 @@ nav ul {
       text-align: center;
       margin: 5%;
       color: #544D3C;
-      font-family: 'Antic Didone', 'Times New Roman', Times, serif;
+      font-family: 'Antic Didone';
       font-size: 35px;
     }
 
@@ -1001,7 +1001,7 @@ nav ul {
     }
     .cv li{
       list-style: none;
-      font-family: 'Cambay', 'Times New Roman', Times, serif;
+      font-family: 'Cambay';
       text-align: center;
       color: #544D3C;
       line-height: 2.5;
