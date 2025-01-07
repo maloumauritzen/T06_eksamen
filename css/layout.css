@@ -956,9 +956,11 @@ nav ul {
       background-color: transparent;
       margin: 3% 0 6% 0;
       padding: 0 25% 0 25%;
+      display: block;
     }
     .greenbox_ommig p{
       color: #544D3C;
+      padding: 3% 13% 0 13%;
     }
 
     .side_img{
@@ -985,13 +987,13 @@ nav ul {
       height: auto;
       overflow: hidden;
       position: relative;
-      right: 25%;
-      transform: translateY(-180%);
+      right: 23%;
+      transform: translateY(-165%);
 
     }
 
     .tekstboks_cv{
-      transform: translateY(-61%);
+      transform: translateY(-66%);
     }
 
     .cv{
