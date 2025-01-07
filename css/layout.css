@@ -367,6 +367,7 @@ nav ul {
       font-family: 'Antic Didone';
       font-size:20px;
       color: #544D3C;
+      padding: 0 5% 0 5%;
     }
 
     .citat2{
@@ -684,7 +685,7 @@ nav ul {
     }
     .green_box{
       margin: 4% 60% 7% 0;
-      padding-bottom: 15%;
+      padding-bottom: 10%;
       position: relative;
     }
     .tekst_box{
@@ -703,7 +704,7 @@ nav ul {
     }
     .img_box{
       position: absolute;
-      top: 206%;
+      top: 198%;
       right: 370px;
       z-index: 2;
     }
@@ -715,7 +716,7 @@ nav ul {
     .green_box2{
       position: relative;
       margin: 4% 0 7% 60%;
-      padding-bottom: 15%;
+      padding-bottom: 10%;
     }
 
     .img_box2 img{
@@ -727,7 +728,7 @@ nav ul {
     .img_box2{
       position: absolute;
       right: 430px;
-      top: 225%;
+      top: 217%;
     }
 
 
@@ -735,13 +736,13 @@ nav ul {
     /* STYLING AF TEKSTBOKS OG IMG */
     .green_box3{
       margin: 4% 60% 7% 0;
-      padding-bottom: 15%;
+      padding-bottom: 10%;
       position: relative;
     }
 
 
     .img_box3 img{
-      width: 100%;
+      width: 90%;
       height: auto;
       border: 1px solid #544D3C;
     }
@@ -749,8 +750,8 @@ nav ul {
 
     .img_box3{
       position: absolute;
-      top: 192.5%;
-      right: 370px;
+      top: 197.5%;
+      right: 400px;
       z-index: 2;
     }
 
@@ -760,7 +761,7 @@ nav ul {
     .green_box4{
       position: relative;
       margin: 4% 0 7% 60%;
-      padding-bottom: 15%;
+      padding-bottom: 10%;
     }
 
 
@@ -774,7 +775,7 @@ nav ul {
     .img_box4{
       position: absolute;
       right: 520px;
-      top: 183%;
+      top: 187%;
     }
 
 
@@ -782,7 +783,7 @@ nav ul {
     /* STYLING AF TEKSTBOKS OG IMG */
     .green_box5{
       margin: 4% 60% 7% 0;
-      padding-bottom: 15%;
+      padding-bottom: 10%;
       position: relative;
     }
 
@@ -796,7 +797,7 @@ nav ul {
 
     .img_box5{
       position: absolute;
-      top: 195%;
+      top: 188%;
       right: 270px;
       z-index: 2;
     }
@@ -1019,6 +1020,14 @@ nav ul {
     }
     footer{
       padding: 5%;
+      background-color: #363125;
+    }
+    .footer_grid li{
+      list-style: none;
+      text-align: center;
+      justify-content: center;
+      font-family: 'Cambay';
+      color: #fff;
     }
 
 }
